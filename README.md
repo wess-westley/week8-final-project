@@ -72,3 +72,4 @@ Vanilla JavaScript for interactivity
 Font Awesome icons
 
 Google Fonts (Poppins and Montserrat)
+@@ site is live at: https://wess-westley.github.io/week8-final-project/
