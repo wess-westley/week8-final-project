@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus | Creative Showcase</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background with particles -->
+    <div class="background-wrapper">
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-content">
+            <a href="#" class="logo" data-page="home">Nexus<span>Studio</span></a>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" data-page="home">Home</a></li>
+                <li><a href="#" data-page="about">About</a></li>
+                <li><a href="#" data-page="services">Services</a></li>
+                <li><a href="#" data-page="portfolio">Portfolio</a></li>
+                <li><a href="#" data-page="contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page Sections -->
+    <main>
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="container hero-content">
+                <h1 class="hero-title">Creative Digital Experiences</h1>
+                <p class="hero-subtitle">We create stunning digital solutions that help brands stand out in the digital landscape</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary" data-page="portfolio">View Work</a>
+                    <a href="#" class="btn btn-secondary" data-page="contact">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>We Create Digital Experiences That People Love</h3>
+                        <p>Nexus Studio is a creative digital agency focused on growing brands online. We combine strategy, design, and technology to create amazing digital experiences.</p>
+                        <p>Our team of experts is passionate about delivering innovative solutions that drive results. We believe in the power of collaboration and work closely with our clients to understand their goals and vision.</p>
+                        <div class="skills">
+                            <span class="skill">Web Design</span>
+                            <span class="skill">Development</span>
+                            <span class="skill">Branding</span>
+                            <span class="skill">UI/UX</span>
+                            <span class="skill">E-commerce</span>
+                            <span class="skill">Marketing</span>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Our Team">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Page -->
+        <section id="services" class="page">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p>Custom websites and web applications built with the latest technologies for optimal performance.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="service-title">UI/UX Design</h3>
+                        <p>User-centered designs that enhance usability and create engaging digital experiences.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="service-title">App Development</h3>
+                        <p>Cross-platform mobile applications that deliver seamless experiences on any device.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3 class="service-title">E-commerce</h3>
+                        <p>Complete online store solutions with secure payment processing and inventory management.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="service-title">Digital Marketing</h3>
+                        <p>Data-driven strategies to increase your online visibility and drive targeted traffic.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3 class="service-title">Cloud Solutions</h3>
+                        <p>Scalable cloud infrastructure and services to support your business growth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Page -->
+        <section id="portfolio" class="page">
+            <div class="container">
+                <h2 class="section-title">Our Work</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Project 1" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">E-commerce Website</h3>
+                            <p>Complete online store with custom features</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project 2" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Mobile App UI</h3>
+                            <p>Fitness tracking application design</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project 3" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Brand Identity</h3>
+                            <p>Complete rebrand for tech startup</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Project 4" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Dashboard Design</h3>
+                            <p>Analytics dashboard for SaaS product</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project 5" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Web Application</h3>
+                            <p>Project management tool development</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80" alt="Project 6" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Digital Marketing</h3>
+                            <p>Social media campaign for lifestyle brand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>123 Creative Street, Digital City, 10001</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+254798245012</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>westleykanyora9@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h3>Working Hours</h3>
+                                <p>Mon-Fri: 9AM - 6PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <a href="#" class="logo">Nexus<span>Studio</span></a>
+            <div class="social-links">
+                <a href="http://www.facebook.com/westely-wess" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="http://www.twitter.com/westley-wess" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.instagram.com/lil.wessy" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="http://www.linked.com/westley-wess" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p class="copyright">© 2025 Nexus Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <span class="music-title">Background Music</span>
+        <button class="music-btn" id="playPauseBtn">
+            <i class="fas fa-play"></i>
+        </button>
+        <audio id="bgMusic" loop>
+            <source src="https://youtu.be/nkzTbwK5ftI?list=RDnkzTbwK5ftI" type="audio/mpeg">
+        </audio>
+    </div>
+
+  <!-- Chatbot -->
+<div class="chatbot-toggle" id="chatbotToggle">
+    <i class="fas fa-comments"></i>
+</div>
+
+<div class="chatbot-container" id="chatbotContainer">
+    <div class="chatbot-header">
+        <h3>Nexus Assistant</h3>
+        <button id="closeChatbot"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="chatbot-body">
+        <p>Hello! How can I help you today?</p>
+    </div>
+    <div class="chatbot-footer">
+        <input type="text" class="chatbot-input" placeholder="Type your message...">
+        <button class="chatbot-btn"><i class="fas fa-paper-plane"></i></button>
+    </div>
+</div>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
